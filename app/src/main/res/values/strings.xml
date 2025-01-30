@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Youtube</string>
+    <string name="accessibility_service_description">My App Accessibility Service</string>
+    <string name="please_allow_the_app_to_run_in_the_background_for_optimal_performance">Please press OK and allow Youtube Premium to run in the background for optimal performance.</string>
+    <string name="allow">Allow</string>
+    <string name="okay_understood">Okay ,Understood</string>
+</resources>

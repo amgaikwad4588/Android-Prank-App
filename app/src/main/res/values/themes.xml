@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Theme based on AppCompat Light Dark ActionBar -->
+    <style name="Theme.MyApplication" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the theme as needed -->
+        <item name="windowNoTitle">true</item> <!-- Remove title -->
+        <item name="windowActionBar">true</item> <!-- Keep action bar -->
+        <item name="windowActionBarOverlay">false</item> <!-- Disable overlay action bar -->
+        <item name="android:windowIsFloating">false</item> <!-- Make it not floating -->
+        <item name="windowActionModeOverlay">false</item> <!-- Ensure Action Mode doesn't overlap -->
+    </style>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Custom Toolbar with app icon -->
+
+    <!-- Your main content goes here -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="?android:attr/colorPrimary"
+        android:elevation="8dp">
+
+        <!-- App icon set manually -->
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="start|center_vertical"
+            android:src="@drawable/logo" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Content of your activity goes here -->
+
+    </FrameLayout>
+</LinearLayout>
